@@ -1,0 +1,55 @@
+img{
+    width: 100%;
+}
+.content{
+    width: 80%;
+    margin: 20% auto;
+	min-height: 160px;
+    border: 1px solid #707070;
+    padding: 1em;
+}
+.profile_box{
+	display: flex;
+	margin-bottom: 20.5px;
+}
+.company-logo{
+	display: flex;
+	align-items: center;
+	width: 30%;
+	padding-right: 15.5px;
+}
+.person-name{
+	width: 66%;
+	padding-left: 15.5px;
+	border-left: 1px solid #707070;
+}
+.person-image{
+	display: flex;
+	align-items: center;
+	width: 34%;
+	height:100%;
+	max-width: 200px;
+	padding-left: 30px;
+	float: right;
+}
+@media screen and (max-width: 768px) {
+
+	.profile_box{
+		flex-direction: column;
+	}
+	.person-image{
+		float: none;
+		width: 50%;
+		margin: 0px auto 16px;
+		padding: 0;
+	}
+	.company-logo{
+		width: 40%;
+		margin-bottom: 8px;
+	}
+	.person-name{
+		width: 100%;
+		padding: 0;
+		border: none;
+	}
+}
